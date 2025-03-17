@@ -1,6 +1,6 @@
 import AboutImg from '/src/assets/website-assets/images/about1.png'
 import Goal from '/src/assets/website-assets/images/Goal.png'
-import milleniumeye from '/src/assets/website-assets/images/MilleniumEye.png'
+import MilleniumEye from '/src/assets/website-assets/images/MilleniumEye.png'
 import Happy from '/src/assets/website-assets/images/Happy.png'
 import Headsets from '/src/assets/website-assets/images/Headset.png'
 import StudentMale from '/src/assets/website-assets/images/StudentMale.png'
@@ -26,7 +26,7 @@ export const About = () => {
                         </div>
                     </div>
                     <div className="shadow-lg w-[683px] h-[139px] flex items-center rounded-xl px-7 gap-5 mb-10">
-                        <img src={milleniumeye} alt="goal" className="w-[61px] h-[61px]"/>
+                        <img src={MilleniumEye} alt="goal" className="w-[61px] h-[61px]"/>
                         <div className="flex flex-col">
                             <h1 className="text-[22px] font-semibold">Our Vision</h1>
                             <p className="text-[17px] font-medium text-[#1A2D62B2]">Our vision is to create a smarter
