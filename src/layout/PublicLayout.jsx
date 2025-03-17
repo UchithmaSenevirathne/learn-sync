@@ -1,5 +1,8 @@
 import {Navbar} from "../pages/website/Navbar.jsx";
 import {Home} from "../pages/website/Home.jsx";
+import {About} from "../pages/website/About.jsx";
+import {Services} from "../pages/website/Services.jsx";
+import {Footer} from "../pages/website/Footer.jsx";
 
 export const PublicLayout = () => {
     return (
@@ -7,7 +10,10 @@ export const PublicLayout = () => {
             <Navbar/>
             <div className="flex-1">
                 <Home/>
+                <About/>
+                <Services/>
             </div>
+            <Footer/>
         </div>
     )
 }

@@ -6,9 +6,9 @@ import file2 from '/src/assets/website-assets/icons/file2.png'
 
 export const Home = () => {
     return (
-        <div className="bg-[#FFFBF7] flex items-center justify-center">
-            <div className="flex items-center justify-between py-15 w-full pl-50 pr-40">
-                <div className="flex flex-col gap-4">
+        <div className="flex items-center justify-center flex-col font-anek">
+            <div className="flex items-center justify-between py-15 w-full pl-50 pr-40 bg-[#FFFBF7]">
+                <div className="flex flex-col gap-4 text-[#1A2D62]">
                     <div className="flex flex-col font-bold text-[90px]">
                         <h1>Better <span className="text-[#32CB81]">Learning</span></h1>
                         <h1><span className="text-[#32CB81]">Future</span> Start</h1>
@@ -41,6 +41,38 @@ export const Home = () => {
                         </div>
                     </div>
                     <img src={HomeImg} className="w-[753px] h-[787px]"/>
+                </div>
+            </div>
+
+            <div className="bg-white flex items-center justify-center px-50 pt-15">
+                <div className="flex flex-col border-r-1 border-gray-400 pr-10">
+                    <h1 className="font-semibold text-[24px] mb-3">Quality Education</h1>
+                    <p className="font-medium text-[18px] text-[#1A2D62B2] mb-10">Quality education empowers minds, fosters
+                        creativity,
+                        enhances skills, builds confidence, and ensures a brighter future.</p>
+                    <div className="flex items-center pl-5 gap-2">
+                        <img src={Eclipse} alt="eclipse" className="absolute left-49"/>
+                        <p className="font-semibold text-[21px] z-10">Explore Courses</p>
+                        <img src={RightArrow} alt="rightarrow" className="pt-1"/>
+                    </div>
+                </div>
+                <div className="flex flex-col border-r-1 border-gray-400 px-10">
+                    <h1 className="font-semibold text-[24px] mb-3">Task Management</h1>
+                    <p className="font-medium text-[18px] text-[#1A2D62B2] mb-10">Task management boosts productivity, organizes work, prioritizes tasks, meets deadlines efficient goal achievement.</p>
+                    <div className="flex items-center pl-5 gap-2">
+                        <img src={Eclipse} alt="eclipse" className="absolute left-185"/>
+                        <p className="font-semibold text-[21px] z-10">Explore Courses</p>
+                        <img src={RightArrow} alt="rightarrow" className="pt-1"/>
+                    </div>
+                </div>
+                <div className="flex flex-col pl-10">
+                    <h1 className="font-semibold text-[24px] mb-3">Chat Application</h1>
+                    <p className="font-medium text-[18px] text-[#1A2D62B2] mb-10">A chat application with tasks  collaboration, organizes work, boosts productivity, and ensures timely completion.</p>
+                    <div className="flex items-center pl-5 gap-2">
+                        <img src={Eclipse} alt="eclipse" className="absolute right-146"/>
+                        <p className="font-semibold text-[21px] z-10">Explore Courses</p>
+                        <img src={RightArrow} alt="rightarrow" className="pt-1"/>
+                    </div>
                 </div>
             </div>
         </div>
