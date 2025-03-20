@@ -1,6 +1,9 @@
 import navIcon from '/src/assets/website-assets/icons/StudentMale.png'
+import {useNavigate} from "react-router-dom";
 
 export const Navbar = () => {
+    const navigate = useNavigate()
+
     return (
         <div className="bg-[#FFFFFF] flex items-center justify-between font-anek text-lg h-[92px] px-50 shadow-md z-10 relative text-[#1A2D62]">
             <div className="flex items-center justify-center gap-2">
@@ -16,7 +19,7 @@ export const Navbar = () => {
                 </ul>
             </div>
             <div>
-                <button className="bg-[#32CB81] font-semibold text-[18px] text-white rounded-2xl w-[138px] h-[43px]">Login</button>
+                <button className="bg-[#32CB81] font-semibold text-[18px] text-white rounded-2xl w-[138px] h-[43px] cursor-pointer" onClick={() => navigate("/login")}>Login</button>
             </div>
         </div>
     )
