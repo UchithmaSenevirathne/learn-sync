@@ -9,6 +9,7 @@ import {PrivateLayout} from "./layout/PrivateLayout.jsx";
 import {Task} from "./pages/dashboards/Task.jsx";
 import {Chat} from "./pages/dashboards/Chat.jsx";
 import {ELearn} from "./pages/dashboards/E-Learn.jsx";
+import {Group} from "./pages/dashboards/Group.jsx";
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
                 {path:"/task", element: <Task/>},
                 {path:"/chat", element: <Chat/>},
                 {path:"/e-learn", element: <ELearn/>},
+                {path:"/group", element: <Group/>},
             ]
         }
     ])
