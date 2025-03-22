@@ -8,6 +8,7 @@ import {Register} from "./pages/Register.jsx";
 import {PrivateLayout} from "./layout/PrivateLayout.jsx";
 import {Task} from "./pages/dashboards/Task.jsx";
 import {Chat} from "./pages/dashboards/Chat.jsx";
+import {ELearn} from "./pages/dashboards/E-Learn.jsx";
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
             children: [
                 {path:"/task", element: <Task/>},
                 {path:"/chat", element: <Chat/>},
+                {path:"/e-learn", element: <ELearn/>},
             ]
         }
     ])
