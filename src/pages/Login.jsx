@@ -23,7 +23,7 @@ export const Login = () => {
                         <input type="password" placeholder="Enter your password"
                                className="flex-1 text-[17px] font-medium focus:outline-none"/>
                     </div>
-                    <button className="text-[22px] font-semibold bg-[#4B2FC8] text-white p-1 rounded-md cursor-pointer" onClick={() => navigate("/dashboard")}>Login In</button>
+                    <button className="text-[22px] font-semibold bg-[#4B2FC8] text-white p-1 rounded-md cursor-pointer" onClick={() => navigate("/task")}>Login In</button>
                 </form>
                 <div className="flex gap-2 mt-10">
                     <p className="text-[19px] font-medium text-gray-500">Don’t have an Account ?</p>

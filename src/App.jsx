@@ -6,7 +6,7 @@ import {Home} from "./pages/website/Home.jsx";
 import {Login} from "./pages/Login.jsx";
 import {Register} from "./pages/Register.jsx";
 import {PrivateLayout} from "./layout/PrivateLayout.jsx";
-import {SideBar} from "./components/SideBar.jsx";
+import {Task} from "./pages/dashboards/Task.jsx";
 
 function App() {
 
@@ -14,10 +14,6 @@ function App() {
         {
             path: "/",
             element: <PublicLayout/>,
-            children: [
-                <Navbar/>,
-                <Home/>,
-            ]
         },
         {
             path: "/login",
@@ -28,10 +24,10 @@ function App() {
             element: <Register/>,
         },
         {
-            path: "/dashboard",
+            path: "/",
             element: <PrivateLayout/>,
             children: [
-                <SideBar/>,
+                {path:"/task", element: <Task/>},
             ]
         }
     ])
