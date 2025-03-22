@@ -1,5 +1,6 @@
 import {MdOutlineTune} from "react-icons/md";
 import {BsCaretRightFill} from "react-icons/bs";
+import {HiOutlineDotsVertical, HiPlus} from "react-icons/hi";
 
 export const Task = () => {
     return (
@@ -26,11 +27,58 @@ export const Task = () => {
                     </button>
                 </div>
             </div>
-            <div className="flex items-center">
-                <div className="flex flex-col border-1 border-gray-200 rounded-xl">
-                    <div>
-                        <BsCaretRightFill />
+            <div className="flex items-center pt-5 gap-5">
+                <div className="flex flex-col border-1 border-gray-200 rounded-xl flex-1">
+                    <div className="flex items-center justify-between border-b-1 border-gray-200 h-full py-3 px-2">
+                        <div className="flex text-gray-800 items-center gap-2">
+                            <BsCaretRightFill className="w-[16px] h-[19px]"/>
+                            <h1 className="font-semibold text-[18px] pt-1.5">Todo List</h1>
+                        </div>
+                        <div className="flex text-gray-700 items-center gap-2">
+                            <HiPlus className="w-[19px] h-[19px]"/>
+                            <HiOutlineDotsVertical className="w-[18px] h-[18px]"/>
+                        </div>
                     </div>
+                    <div className="h-[610px] p-3"></div>
+                </div>
+                <div className="flex flex-col border-1 border-gray-200 rounded-xl flex-1">
+                    <div className="flex items-center justify-between border-b-1 border-gray-200 h-full py-3 px-2">
+                        <div className="flex text-gray-800 items-center gap-2">
+                            <BsCaretRightFill className="w-[16px] h-[19px]"/>
+                            <h1 className="font-semibold text-[18px] pt-1.5">In Progress</h1>
+                        </div>
+                        <div className="flex text-gray-700 items-center gap-2">
+                            <HiPlus className="w-[19px] h-[19px]"/>
+                            <HiOutlineDotsVertical className="w-[18px] h-[18px]"/>
+                        </div>
+                    </div>
+                    <div className="h-[610px] p-3"></div>
+                </div>
+                <div className="flex flex-col border-1 border-gray-200 rounded-xl flex-1">
+                    <div className="flex items-center justify-between border-b-1 border-gray-200 h-full py-3 px-2">
+                        <div className="flex text-gray-800 items-center gap-2">
+                            <BsCaretRightFill className="w-[16px] h-[19px]"/>
+                            <h1 className="font-semibold text-[18px] pt-1.5">In Review</h1>
+                        </div>
+                        <div className="flex text-gray-700 items-center gap-2">
+                            <HiPlus className="w-[19px] h-[19px]"/>
+                            <HiOutlineDotsVertical className="w-[18px] h-[18px]"/>
+                        </div>
+                    </div>
+                    <div className="h-[610px] p-3"></div>
+                </div>
+                <div className="flex flex-col border-1 border-gray-200 rounded-xl flex-1">
+                    <div className="flex items-center justify-between border-b-1 border-gray-200 h-full py-3 px-2">
+                        <div className="flex text-gray-800 items-center gap-2">
+                            <BsCaretRightFill className="w-[16px] h-[19px]"/>
+                            <h1 className="font-semibold text-[18px] pt-1.5">Done</h1>
+                        </div>
+                        <div className="flex text-gray-700 items-center gap-2">
+                            <HiPlus className="w-[19px] h-[19px]"/>
+                            <HiOutlineDotsVertical className="w-[18px] h-[18px]"/>
+                        </div>
+                    </div>
+                    <div className="h-[610px] p-3"></div>
                 </div>
             </div>
         </div>
