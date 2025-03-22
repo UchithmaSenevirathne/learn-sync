@@ -5,6 +5,8 @@ import {PublicLayout} from "./layout/PublicLayout.jsx";
 import {Home} from "./pages/website/Home.jsx";
 import {Login} from "./pages/Login.jsx";
 import {Register} from "./pages/Register.jsx";
+import {PrivateLayout} from "./layout/PrivateLayout.jsx";
+import {SideBar} from "./components/SideBar.jsx";
 
 function App() {
 
@@ -24,6 +26,13 @@ function App() {
         {
             path: "/register",
             element: <Register/>,
+        },
+        {
+            path: "/dashboard",
+            element: <PrivateLayout/>,
+            children: [
+                <SideBar/>,
+            ]
         }
     ])
 
