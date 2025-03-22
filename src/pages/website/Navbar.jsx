@@ -19,7 +19,7 @@ export const Navbar = () => {
                 </ul>
             </div>
             <div>
-                <button className="bg-[#32CB81] font-semibold text-[18px] text-white rounded-2xl w-[138px] h-[43px] cursor-pointer" onClick={() => navigate("/login")}>Login</button>
+                <button className="bg-[#32CB81] font-semibold text-[20px] text-white rounded-2xl w-[138px] h-[43px] cursor-pointer pt-2" onClick={() => navigate("/login")}>Login</button>
             </div>
         </div>
     )

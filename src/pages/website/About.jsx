@@ -34,7 +34,7 @@ export const About = () => {
                         </div>
                     </div>
                     <button
-                        className="bg-[#32CB81] text-white text-[20px] font-semibold w-[227px] h-[51px] rounded-2xl">Discover
+                        className="bg-[#32CB81] text-white text-[20px] font-semibold w-[227px] h-[51px] rounded-2xl pt-2">Discover
                         more
                     </button>
                 </div>

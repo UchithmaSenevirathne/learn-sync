@@ -37,7 +37,7 @@ export const Group = () => {
                         <h1 className="text-[18px] font-semibold">My Group Chat</h1>
                         <RiSettings5Fill className="w-[25px] h-[25px]"/>
                     </div>
-                    <div className="flex-1 flex gap-20 p-5 justify-between">
+                    <div className="flex gap-20 p-5 justify-between h-[600px] overflow-auto">
                         <div>
                             {/*others' responses*/}
                         </div>

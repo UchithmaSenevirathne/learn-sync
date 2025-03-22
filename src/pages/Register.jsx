@@ -29,7 +29,7 @@ export const Register = () => {
                         <input type="password" placeholder="Confirm Password"
                                className="flex-1 text-[17px] font-medium focus:outline-none"/>
                     </div>
-                    <button className="text-[22px] font-semibold bg-[#4B2FC8] text-white p-1 rounded-md cursor-pointer" onClick={() => navigate("/login")}>Sign Up
+                    <button className="text-[22px] font-semibold bg-[#4B2FC8] text-white p-1 rounded-md cursor-pointer pt-2" onClick={() => navigate("/login")}>Sign Up
                     </button>
                 </form>
                 <div className="flex gap-2 mt-10">

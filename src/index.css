@@ -32,3 +32,33 @@
 .animate-color-change {
     animation: colorChange 10s infinite alternate;
 }
+
+.glowing-border {
+    position: relative;
+    background-color: white;
+    transition: all 10s ease;
+}
+
+.glowing-border {
+    animation: glow-border 2s infinite alternate;
+    transition: all 10s ease;
+    border: 2px solid;
+}
+
+@keyframes glow-border {
+    0% {
+        border-color: #4B2FC8;
+    }
+    25% {
+        border-color: #FF1493;
+    }
+    50% {
+        border-color: #FF4500;
+    }
+    75% {
+        border-color: #1E90FF; /* Dodger Blue */
+    }
+    100% {
+        border-color: #32CD32; /* Lime Green */
+    }
+}

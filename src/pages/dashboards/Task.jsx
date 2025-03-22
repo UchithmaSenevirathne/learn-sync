@@ -17,7 +17,7 @@ export const Task = () => {
                 </div>
                 <div className="flex gap-5">
                     <button
-                        className="text-[19px] font-semibold flex border-1 border-gray-300 rounded-xl w-[124px] justify-center pt-2">
+                        className="text-[19px] font-semibold flex border-2 border-gray-300 rounded-xl w-[124px] justify-center pt-2 glowing-border">
                         <MdOutlineTune className="h-[23px] w-[28px]"/>
                         Filters
                     </button>
@@ -39,7 +39,7 @@ export const Task = () => {
                             <HiOutlineDotsVertical className="w-[18px] h-[18px]"/>
                         </div>
                     </div>
-                    <div className="h-[630px] p-3"></div>
+                    <div className="h-[630px] p-3 overflow-auto"></div>
                 </div>
                 <div className="flex flex-col border-1 border-gray-300 rounded-xl flex-1">
                     <div className="flex items-center justify-between border-b-1 border-gray-300 h-full py-3 px-2">
@@ -52,7 +52,7 @@ export const Task = () => {
                             <HiOutlineDotsVertical className="w-[18px] h-[18px]"/>
                         </div>
                     </div>
-                    <div className="h-[630px] p-3"></div>
+                    <div className="h-[630px] p-3 overflow-auto"></div>
                 </div>
                 <div className="flex flex-col border-1 border-gray-300 rounded-xl flex-1">
                     <div className="flex items-center justify-between border-b-1 border-gray-300 h-full py-3 px-2">
@@ -65,7 +65,7 @@ export const Task = () => {
                             <HiOutlineDotsVertical className="w-[18px] h-[18px]"/>
                         </div>
                     </div>
-                    <div className="h-[630px] p-3"></div>
+                    <div className="h-[630px] p-3 overflow-auto"></div>
                 </div>
                 <div className="flex flex-col border-1 border-gray-300 rounded-xl flex-1">
                     <div className="flex items-center justify-between border-b-1 border-gray-300 h-full py-3 px-2">
@@ -78,7 +78,7 @@ export const Task = () => {
                             <HiOutlineDotsVertical className="w-[18px] h-[18px]"/>
                         </div>
                     </div>
-                    <div className="h-[630px] p-3"></div>
+                    <div className="h-[630px] p-3 overflow-auto"></div>
                 </div>
             </div>
         </div>

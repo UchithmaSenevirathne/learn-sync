@@ -23,7 +23,7 @@ export const SideBar = () => {
     };
 
     return (
-        <div className="bg-[#E9EFF2] flex flex-col font-anek py-7 pl-7 gap-10 ">
+        <div className="bg-[#E9EFF2] flex flex-col font-anek py-7 pl-7 gap-10">
             <h1 className="font-bold text-[30px] pr-7">Learn Sync</h1>
             <div className="mb-10 flex flex-col gap-2">
                 <h4 className="font-semibold text-[12px] text-gray-400">MAIN</h4>

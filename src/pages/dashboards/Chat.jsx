@@ -21,7 +21,7 @@ export const Chat = () => {
                 </div>
             </div>
             <div className="flex flex-col border border-gray-300 rounded-xl h-[690px]">
-                <div className="flex-1"></div>
+                <div className="overflow-auto p-5 h-[600px]"></div>
                 <div className="flex justify-between items-center mx-20 my-5 border border-gray-300 rounded-xl gap-5 px-5 pt-4 relative">
                     <textarea
                         placeholder="Ask Any Question ....."

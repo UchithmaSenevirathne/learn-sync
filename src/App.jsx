@@ -10,6 +10,8 @@ import {Task} from "./pages/dashboards/Task.jsx";
 import {Chat} from "./pages/dashboards/Chat.jsx";
 import {ELearn} from "./pages/dashboards/E-Learn.jsx";
 import {Group} from "./pages/dashboards/Group.jsx";
+import {Dashboard} from "./pages/dashboards/Dashboard.jsx";
+import {Schedule} from "./pages/dashboards/Schedule.jsx";
 
 function App() {
 
@@ -30,7 +32,9 @@ function App() {
             path: "/",
             element: <PrivateLayout/>,
             children: [
+                {path:"/dashboard", element: <Dashboard />},
                 {path:"/task", element: <Task/>},
+                {path:"/schedule", element: <Schedule/>},
                 {path:"/chat", element: <Chat/>},
                 {path:"/e-learn", element: <ELearn/>},
                 {path:"/group", element: <Group/>},
