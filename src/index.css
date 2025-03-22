@@ -8,3 +8,27 @@
 .font-anek {
     font-family: "Anek Devanagari", sans-serif;
 }
+
+/* Keyframes for Color Animation */
+@keyframes colorChange {
+    0% {
+        color: #4B2FC8; /* Purple */
+    }
+    25% {
+        color: #FF1493; /* Pink */
+    }
+    50% {
+        color: #FF4500; /* Orange Red */
+    }
+    75% {
+        color: #1E90FF; /* Dodger Blue */
+    }
+    100% {
+        color: #32CD32; /* Lime Green */
+    }
+}
+
+/* Applying the animation */
+.animate-color-change {
+    animation: colorChange 10s infinite alternate;
+}
