@@ -7,6 +7,7 @@ import {Login} from "./pages/Login.jsx";
 import {Register} from "./pages/Register.jsx";
 import {PrivateLayout} from "./layout/PrivateLayout.jsx";
 import {Task} from "./pages/dashboards/Task.jsx";
+import {Chat} from "./pages/dashboards/Chat.jsx";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
             element: <PrivateLayout/>,
             children: [
                 {path:"/task", element: <Task/>},
+                {path:"/chat", element: <Chat/>},
             ]
         }
     ])
